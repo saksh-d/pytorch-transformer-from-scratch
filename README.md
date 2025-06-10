@@ -28,6 +28,36 @@ The model is trained on the `en-no` language pair from the `opus_books` dataset 
 
 ---
 
+## Instructions
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/transformer-en-no.git
+cd transformer-en-no
+```
+
+2. It is recommended to use a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
+
+3. Open the jupyter notebook and run all cells
+
+```bash
+jupyter notebook transformer_from_scratch.ipynb
+```
+
+This will:
+- Download and preprocess the English–Norwegian dataset
+- Train a custom tokenizer
+- Build and train a Transformer model from scratch
+- Save model checkpoints to /weights
+
+---
+
 ## Example
 
 ```python
