@@ -8,15 +8,15 @@ The model is trained on the `en-no` language pair from the `opus_books` dataset 
 
 ## Features
 
-- ✅ **Tokenization** with `tokenizers` library (`WordLevel`)
-- ✅ **Custom Transformer** with multi-head attention, layer norm, masking, and position-wise feedforward
-- ✅ Supports `[PAD]`, `[SOS]`, `[EOS]`, `[UNK]` tokens
-- ✅ **Custom Dataset** class with padding, attention masks, and label construction
-- ✅ **Training loop** with:
+- **Tokenization** with `tokenizers` library (`WordLevel`)
+- **Custom Transformer** with multi-head attention, layer norm, masking, and position-wise feedforward
+- Supports `[PAD]`, `[SOS]`, `[EOS]`, `[UNK]` tokens
+- **Custom Dataset** class with padding, attention masks, and label construction
+- **Training loop** with:
   - Label smoothing
   - TensorBoard logging
   - Checkpointing and resume support
-- ✅ **Greedy decoding** inference function to generate translations
+- **Greedy decoding** inference function to generate translations
 
 ---
 
