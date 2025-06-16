@@ -22,7 +22,7 @@ The model is trained on the `en-no` language pair from the `opus_books` dataset 
 
 ## Dataset
 
-- `Helsinki-NLP/opus_books` from Hugging Face
+- [`Helsinki-NLP/opus_books`](https://huggingface.co/datasets/Helsinki-NLP/opus_books/viewer/en-no) from Hugging Face
 - Language pair: `en-no` (English → Norwegian)
 - Tokenizers are trained from scratch on this dataset and saved as JSON
 
